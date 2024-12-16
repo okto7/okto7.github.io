@@ -483,14 +483,14 @@ footer a:hover {
     gap: 20px;
   }
 
-  .card {
-    width: 48%; /* Cards should take about half of the available width */
-    margin-bottom: 20px;
-    padding: 15px;
+.card {
+    width: 100%; /* Each card takes up full width of the screen */
+    margin-bottom: 15px;
+    padding: 15px; /* Ensure cards have space around content */
   }
 
   .card img {
-    width: 100%; /* Ensure images are fully responsive */
+    width: 100%; /* Make sure images are responsive */
     height: auto;
   }
 
