@@ -381,7 +381,7 @@ footer a:hover {
   }
 
   header {
-    padding: 1em;
+    padding: 3em;
     text-align: center;
     background-image: url('./img/bg.jpg');
     background-size: cover;
@@ -402,7 +402,7 @@ footer a:hover {
 
   footer {
     font-size: 14px;
-    padding-bottom: 1rem;
+    padding-bottom: 3rem;
     height: auto; /* Adjust footer height to accommodate text */
   }
 
