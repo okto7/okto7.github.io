@@ -439,3 +439,73 @@ footer a:hover {
     font-size: 3.5rem;
   }
 }
+
+/* iPhone 11 Pro Max Landscape */
+@media (max-width: 896px) and (min-width: 414px) {
+  body {
+    font-size: 14px; /* Adjust base font size for landscape mode */
+  }
+
+  header {
+    padding: 3em;
+    text-align: center;
+    background-image: url('./img/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    width: 100%; /* Ensure header takes full width */
+    min-height: 300px; /* Adjust height to fit landscape mode */
+  }
+
+  .course {
+    display: flex;
+    flex-wrap: wrap; /* Allow elements to wrap in the landscape view */
+    justify-content: space-between;
+  }
+
+  .course .title, .course .descrition {
+    flex: 0 0 48%; /* Reduce width of title and description to fit side by side */
+    max-width: 48%;
+  }
+
+  footer {
+    font-size: 16px;
+    padding-bottom: 2rem;
+    height: auto; /* Adjust height for footer */
+  }
+
+  .gallery h2 {
+    font-size: 3.5rem; /* Slightly larger text size for better fit */
+  }
+
+  .content-section {
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .card {
+    width: 48%; /* Cards should take about half of the available width */
+    margin-bottom: 20px;
+    padding: 15px;
+  }
+
+  .card img {
+    width: 100%; /* Ensure images are fully responsive */
+    height: auto;
+  }
+
+  .hero a {
+    font-size: 1rem; /* Adjust font size for links in landscape */
+  }
+
+  .fab {
+    font-size: 1.5rem; /* Adjust icon size */
+  }
+
+  .audio-icon-wrapper {
+    width: 4rem;
+    height: 4rem;
+    font-size: 4rem;
+  }
+}
+
