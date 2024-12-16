@@ -374,10 +374,10 @@ footer a:hover {
   }
 }
 
-/* Iphone */
+/* iPhone 11 Pro Max */
 @media (max-width: 414px) {
   body {
-    font-size: 12px; /* Adjust base font size for mobile */
+    font-size: 12px; /* Adjust base font size for iPhone 11 Pro Max */
   }
 
   header {
@@ -387,11 +387,12 @@ footer a:hover {
     background-size: cover;
     background-position: center;
     color: white;
+    width: 100%; /* Ensure header takes full width */
+    min-height: 350px; /* Adjust height to prevent the background from being squeezed */
   }
 
-  .skills .column {
-    max-width: 100%;
-    flex: 0 0 100%;
+  .course {
+    display: block;
   }
 
   .course .title, .course .descrition {
@@ -402,6 +403,7 @@ footer a:hover {
   footer {
     font-size: 14px;
     padding-bottom: 3rem;
+    height: auto; /* Adjust footer height to accommodate text */
   }
 
   .gallery h2 {
@@ -415,5 +417,25 @@ footer a:hover {
   .card {
     width: 100%;
     margin-bottom: 15px;
+    padding: 15px; /* Ensure proper spacing */
+  }
+
+  .card img {
+    width: 100%; /* Ensure images are fully responsive */
+    height: auto;
+  }
+
+  .hero a {
+    font-size: 1rem; /* Adjust link size for mobile */
+  }
+
+  .fab {
+    font-size: 1.25rem; /* Adjust icon size for mobile */
+  }
+
+  .audio-icon-wrapper {
+    width: 3.5rem;
+    height: 3.5rem;
+    font-size: 3.5rem;
   }
 }
