@@ -373,3 +373,47 @@ footer a:hover {
     margin-bottom: 15px;
   }
 }
+
+/* Iphone */
+@media (max-width: 414px) {
+  body {
+    font-size: 12px; /* Adjust base font size for mobile */
+  }
+
+  header {
+    padding: 3em;
+    text-align: center;
+    background-image: url('./img/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+  }
+
+  .skills .column {
+    max-width: 100%;
+    flex: 0 0 100%;
+  }
+
+  .course .title, .course .descrition {
+    max-width: 100%;
+    flex: 0 0 100%;
+  }
+
+  footer {
+    font-size: 14px;
+    padding-bottom: 3rem;
+  }
+
+  .gallery h2 {
+    font-size: 3rem; /* Adjust heading font size for mobile */
+  }
+
+  .content-section {
+    gap: 15px;
+  }
+
+  .card {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+}
