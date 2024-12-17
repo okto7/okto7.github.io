@@ -454,7 +454,7 @@ footer a:hover {
     background-position: center;
     color: white;
     width: 100%; /* Ensure header takes full width */
-    min-height: 300px; /* Adjust height to fit landscape mode */
+    min-height: 600px; /* Adjust height to fit landscape mode */
   }
 
   .course {
