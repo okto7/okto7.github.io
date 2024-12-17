@@ -441,7 +441,7 @@ footer a:hover {
 }
 
 /* iPhone 11 Pro Max Landscape */
-@media (max-width: 896px) and (min-width: 414px) {
+@media (max-width: 896px) and (min-width: 414px) and (height: 600px) {
   body {
     font-size: 14px; /* Adjust base font size for landscape mode */
   }
