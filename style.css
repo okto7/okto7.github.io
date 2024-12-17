@@ -440,71 +440,92 @@ footer a:hover {
   }
 }
 
-/* iPhone 11 Pro Max Landscape */
-@media (max-width: 896px) and (min-width: 414px) and (height: 600px) {
+/* iPhone 11 Pro Max Portrait */
+@media (max-width: 414px) {
   body {
-    font-size: 14px; /* Adjust base font size for landscape mode */
+    font-size: 12px; /* Adjust base font size for iPhone 11 Pro Max */
+    height: 100%; /* Ensure full page height */
+    margin: 0; /* Remove any default margin */
   }
 
   header {
-    padding: 1em;
+    padding: 3em;
     text-align: center;
-    background-image: url('./img/width 350px.png');
+    background-image: url('./img/bg.jpg'); /* Keep your image path */
     background-size: cover;
     background-position: center;
     color: white;
     width: 100%; /* Ensure header takes full width */
-    height: 100%; /* Adjust height to fit landscape mode */
-  }
-
-  .course {
-    display: flex;
-    flex-wrap: wrap; /* Allow elements to wrap in the landscape view */
-    justify-content: space-between;
-  }
-
-  .course .title, .course .descrition {
-    flex: 0 0 48%; /* Reduce width of title and description to fit side by side */
-    max-width: 48%;
-  }
-
-  footer {
-    font-size: 16px;
-    padding-bottom: 0.5em;
-    height: auto; /* Adjust height for footer */
-  }
-
-  .gallery h2 {
-    font-size: 3.5rem; /* Slightly larger text size for better fit */
-  }
-
-  .content-section {
-    flex-direction: row;
-    gap: 20px;
-  }
-
-.card {
-    width: 100%; /* Each card takes up full width of the screen */
-    margin-bottom: 15px;
-    padding: 15px; /* Ensure cards have space around content */
-  }
-
-  .card img {
-    width: 100%; /* Make sure images are responsive */
-    height: auto;
+    min-height: 350px; /* Adjust height to prevent background from being squeezed */
   }
 
   .hero a {
-    font-size: 1rem; /* Adjust font size for links in landscape */
+    font-size: 1rem; /* Adjust link size for mobile */
+  }
+
+  footer {
+    font-size: 14px;
+    padding-bottom: 2rem;
+    position: relative; /* Ensure it stays at the bottom of the screen */
+    height: auto; /* Adjust footer height to accommodate text */
+    background: #ac7e00;
+    color: black;
+    width: 100%;
+    text-align: center;
+  }
+
+  .course {
+    display: block;
+    padding: 0 1em; /* Ensure there's some padding for mobile screens */
+  }
+
+  .course .title, .course .descrition {
+    max-width: 100%;
+    flex: 0 0 100%;
+  }
+
+  .content-section {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .card {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 15px; /* Ensure proper spacing */
+  }
+
+  .card img {
+    width: 100%; /* Ensure images are fully responsive */
+    height: auto;
   }
 
   .fab {
-    font-size: 1.5rem; /* Adjust icon size */
+    font-size: 1.25rem; /* Adjust icon size for mobile */
   }
 
   .audio-icon-wrapper {
-    width: 4rem;
-    height: 4rem;
-    font-size: 4rem;
+    width: 3.5rem;
+    height: 3.5rem;
+    font-size: 3.5rem;
+  }
+
+  .gallery h2 {
+    font-size: 3rem; /* Adjust heading font size for mobile */
+  }
+
+  .gallery {
+    background-image: url(img/1500px-x-1700px-Rose-Field-40%-image.jpg); /* Make sure the background image is loaded correctly */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    min-height: 100vh; /* Ensure gallery takes up full screen height */
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
   }
 }
