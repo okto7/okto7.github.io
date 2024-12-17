@@ -337,12 +337,13 @@ footer a:hover {
   }
 
   header {
-    padding: 3em;
+    padding: 1em;
     text-align: center;
-    background-image: url('./img/bg.jpg');
+    background-image: url('img/width 350px.png');
     background-size: cover;
     background-position: center;
     color: white;
+    width: 100%; /* Ensure header takes full width */
   }
 
   .skills .column {
@@ -449,7 +450,7 @@ footer a:hover {
   header {
     padding: 1em;
     text-align: center;
-    background-image: url('./img/width 350px.png');
+    background-image: url('img/width 350px.png');
     background-size: cover;
     background-position: center;
     color: white;
