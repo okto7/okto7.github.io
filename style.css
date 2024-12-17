@@ -30,7 +30,6 @@ section {
 }
 
 header {
-  padding: 2em;
   text-align: center;
   background-image: url('./img/bg.jpg');
   background-size: cover;
@@ -297,7 +296,6 @@ footer a:hover {
   }
 
   header {
-    padding: 3em;
     text-align: center;
     background-image: url('./img/bg.jpg');
     background-size: cover;
@@ -337,7 +335,6 @@ footer a:hover {
   }
 
   header {
-    padding: 3em;
     text-align: center;
     background-image: url('./img/bg.jpg');
     background-size: cover;
@@ -357,7 +354,7 @@ footer a:hover {
 
   footer {
     font-size: 14px;
-    padding-bottom: 2rem;
+    padding-bottom: 0.5em;
   }
 
   .gallery h2 {
@@ -381,14 +378,12 @@ footer a:hover {
   }
 
   header {
-    padding: 1em;
     text-align: center;
     background-image: url('img/width 350px.png');
     background-size: cover;
     background-position: center;
     color: white;
     width: 100%; /* Ensure header takes full width */
-    height: 100%; /* Adjust height to fit landscape mode */
   }
 
   .course {
@@ -402,7 +397,7 @@ footer a:hover {
 
   footer {
     font-size: 14px;
-    padding-bottom: 3rem;
+    padding-bottom: 0.5em;
     height: auto; /* Adjust footer height to accommodate text */
   }
 
@@ -447,14 +442,12 @@ footer a:hover {
   }
 
   header {
-    padding: 1em;
     text-align: center;
     background-image: url('img/width 350px.png');
     background-size: cover;
     background-position: center;
     color: white;
     width: 100%; /* Ensure header takes full width */
-    height: 100%; /* Adjust height to fit landscape mode */
   }
 
   .course {
