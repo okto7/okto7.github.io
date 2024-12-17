@@ -169,42 +169,6 @@ footer a:hover {
   color: #00ffea;
 }
 
-.gallery h2 {
-  color: var(--pink);
-  font-family: 'sacramento';
-  font-size: 5rem;
-  font-weight: bold;
-}
-
-.gallery {
-  background-image: url(img/1500px\ x\ 1700px\ Rose\ Field\ 40%.jpg.png);
-  display: absolute;
-  padding-top: 2rem;
-  padding-bottom: 40rem;
-  min-height: 100vh;
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  background-position: center;
-  z-index: -1;
-}
-
-.gallery span {
-  text-transform: uppercase;
-  color: #666;
-  font-size: 0.9rem;
-  letter-spacing: 1px;
-  display: block;
-  margin-bottom: 1rem;
-}
-
-.gallery p {
-  font-size: 1.5rem;
-  font-weight: 500;
-  color: goldenrod;
-  text-shadow: var(--shadow);
-}
-
 .audio-icon-wrapper {
   width: 4rem;
   height: 4rem;
@@ -297,7 +261,7 @@ footer a:hover {
 
   header {
     text-align: center;
-    background-image: url('./img/bg.jpg');
+    background-image: url('img/width 350px.png');
     background-size: cover;
     background-position: center;
     color: white;
@@ -336,7 +300,7 @@ footer a:hover {
 
   header {
     text-align: center;
-    background-image: url('./img/bg.jpg');
+    background-image: url('./img/');
     background-size: cover;
     background-position: center;
     color: white;
